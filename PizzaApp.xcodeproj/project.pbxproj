@@ -14,6 +14,12 @@
 		D37CD49B1D3DF6F000A860C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37CD4991D3DF6F000A860C0 /* LaunchScreen.storyboard */; };
 		D37CD4A61D3DF6F000A860C0 /* PizzaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CD4A51D3DF6F000A860C0 /* PizzaAppTests.swift */; };
 		D37CD4B11D3DF6F100A860C0 /* PizzaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CD4B01D3DF6F100A860C0 /* PizzaAppUITests.swift */; };
+		D37CD4BF1D3DF71B00A860C0 /* ViewTamano.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CD4BE1D3DF71B00A860C0 /* ViewTamano.swift */; };
+		D37CD4C11D3DF72600A860C0 /* ViewMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CD4C01D3DF72600A860C0 /* ViewMasa.swift */; };
+		D37CD4C31D3DF73400A860C0 /* ViewQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CD4C21D3DF73400A860C0 /* ViewQueso.swift */; };
+		D37CD4C51D3DF74600A860C0 /* ViewIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CD4C41D3DF74600A860C0 /* ViewIngredientes.swift */; };
+		D37CD4C71D3DFAA700A860C0 /* ViewConfirmacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CD4C61D3DFAA700A860C0 /* ViewConfirmacion.swift */; };
+		D37CD4C91D3DFAC600A860C0 /* pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CD4C81D3DFAC600A860C0 /* pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		D37CD4AC1D3DF6F000A860C0 /* PizzaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37CD4B01D3DF6F100A860C0 /* PizzaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaAppUITests.swift; sourceTree = "<group>"; };
 		D37CD4B21D3DF6F100A860C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37CD4BE1D3DF71B00A860C0 /* ViewTamano.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTamano.swift; sourceTree = "<group>"; };
+		D37CD4C01D3DF72600A860C0 /* ViewMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMasa.swift; sourceTree = "<group>"; };
+		D37CD4C21D3DF73400A860C0 /* ViewQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewQueso.swift; sourceTree = "<group>"; };
+		D37CD4C41D3DF74600A860C0 /* ViewIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewIngredientes.swift; sourceTree = "<group>"; };
+		D37CD4C61D3DFAA700A860C0 /* ViewConfirmacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfirmacion.swift; sourceTree = "<group>"; };
+		D37CD4C81D3DFAC600A860C0 /* pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 				D37CD4971D3DF6F000A860C0 /* Assets.xcassets */,
 				D37CD4991D3DF6F000A860C0 /* LaunchScreen.storyboard */,
 				D37CD49C1D3DF6F000A860C0 /* Info.plist */,
+				D37CD4BE1D3DF71B00A860C0 /* ViewTamano.swift */,
+				D37CD4C01D3DF72600A860C0 /* ViewMasa.swift */,
+				D37CD4C21D3DF73400A860C0 /* ViewQueso.swift */,
+				D37CD4C41D3DF74600A860C0 /* ViewIngredientes.swift */,
+				D37CD4C61D3DFAA700A860C0 /* ViewConfirmacion.swift */,
+				D37CD4C81D3DFAC600A860C0 /* pizza.swift */,
 			);
 			path = PizzaApp;
 			sourceTree = "<group>";
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37CD4BF1D3DF71B00A860C0 /* ViewTamano.swift in Sources */,
+				D37CD4C51D3DF74600A860C0 /* ViewIngredientes.swift in Sources */,
 				D37CD4931D3DF6F000A860C0 /* ViewController.swift in Sources */,
+				D37CD4C71D3DFAA700A860C0 /* ViewConfirmacion.swift in Sources */,
+				D37CD4C91D3DFAC600A860C0 /* pizza.swift in Sources */,
+				D37CD4C11D3DF72600A860C0 /* ViewMasa.swift in Sources */,
 				D37CD4911D3DF6F000A860C0 /* AppDelegate.swift in Sources */,
+				D37CD4C31D3DF73400A860C0 /* ViewQueso.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
